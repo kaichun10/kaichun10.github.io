@@ -1940,7 +1940,7 @@ hr.major {
 }
 
 /* Button */
-
+/* Button colour */
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -1961,17 +1961,17 @@ button,
 	color             : #ffffff !important;
 	cursor            : pointer;
 	display           : inline-block;
-	font-size         : 0.6em;
+	font-size         : 0.5em;
 	font-weight       : bold;
 	height            : calc(4.75em + 2px);
-	letter-spacing    : 0.25em;
+	letter-spacing    : 0.40em;
 	line-height       : 4.75em;
 	outline           : 0;
 	padding           : 0 3.75em;
 	position          : relative;
 	text-align        : center;
 	text-decoration   : none;
-	text-transform    : uppercase;
+	text-transform    : lowercase;
 	white-space       : nowrap;
 }
 
@@ -3038,23 +3038,23 @@ ul.actions.fit.stacked {
 }
 
 .tiles article:nth-child(6n - 4):before {
-	background-color: #507072;
+	background-color: #313131;
 }
 
 .tiles article:nth-child(6n - 3):before {
-	background-color: #6b4c51;
+	background-color: #313131;
 }
 
 .tiles article:nth-child(6n - 2):before {
-	background-color: #746f55;
+	background-color: #313131;
 }
 
 .tiles article:nth-child(6n - 1):before {
-	background-color: #8ea9e8;
+	background-color: #313131;
 }
 
 .tiles article:nth-child(6n):before {
-	background-color: #87c5a4;
+	background-color: #313131;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3343,7 +3343,7 @@ body.is-ie .spotlights>section {
 	-webkit-transition: opacity 1s ease;
 	-ms-transition    : opacity 1s ease;
 	transition        : opacity 1s ease;
-	background        : rgba(49, 36, 80, 0.9);
+	background        : rgba(0, 0, 0, 0.9);
 	content           : '';
 	display           : block;
 	height            : 100%;
@@ -3557,31 +3557,31 @@ table.alt tfoot {
 }
 
 .wrapper.alt {
-	background-color: #261c3e;
+	background-color: #000000;
 }
 
 .wrapper.style1 {
-	background-color: #5e42a6;
+	background-color: #000000; /* contact section colour */
 }
 
 .wrapper.style1-alt {
-	background-color: #493382;
+	background-color: #000000; /* copyright section colour */
 }
 
 .wrapper.style2 {
-	background-color: #5052b5;
+	background-color: #000000;
 }
 
 .wrapper.style2-alt {
-	background-color: #3e4094;
+	background-color: #000000;
 }
 
 .wrapper.style3 {
-	background-color: #b74e91;
+	background-color: #000000;
 }
 
 .wrapper.style3-alt {
-	background-color: #953d75;
+	background-color: #000000;
 }
 
 .wrapper.fullscreen {
@@ -3845,7 +3845,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #sidebar {
 	padding   : 2.5em 2.5em 0.5em 2.5em;
-	background: #312450;
+	background: #000000; /*sidebar colour*/
 	cursor    : default;
 	height    : 100vh;
 	left      : 0;
