@@ -282,18 +282,23 @@ h1{
 	line-height: 1.5;
 	margin     : 0 0 0.5em 0; /* margin around text */
 }
-h2,
-h3{
-	color      : #ffffff;
+h2{
+	color      : #ffffffaa;
 	font-weight: bold;
 	line-height: 1.5;
 	margin     : 0 0 0.5em 3em; /* margin around text */
 }
-h4{
+h3{
 	color      : #ffffff;
-	font-weight: light;
+	font-weight: lighter;
 	line-height: 1.5;
 	margin     : 0 0 4em 0em; /* margin around text */
+}
+h4{
+	color      : #ffffffe7;
+	font-weight: bold;
+	line-height: 1.5;
+	margin     : 0 0 0.5em 0em; /* margin around text */
 }
 h5,
 h6 {
