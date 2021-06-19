@@ -276,10 +276,25 @@ p {
 	margin: 0 0 2em 0;
 }
 
-h1,
+h1{
+	color      : #ffffff;
+	font-weight: bold;
+	line-height: 1.5;
+	margin     : 0 0 0.5em 0; /* margin around text */
+}
 h2,
-h3,
-h4,
+h3{
+	color      : #ffffff;
+	font-weight: bold;
+	line-height: 1.5;
+	margin     : 0 0 0.5em 3em; /* margin around text */
+}
+h4{
+	color      : #ffffff;
+	font-weight: light;
+	line-height: 1.5;
+	margin     : 0 0 4em 0em; /* margin around text */
+}
 h5,
 h6 {
 	color      : #ffffff;
@@ -1941,7 +1956,6 @@ hr.major {
 }
 
 /* Button */
-/* Button colour */
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -1972,7 +1986,7 @@ button,
 	position          : relative;
 	text-align        : center;
 	text-decoration   : none;
-	text-transform    : uppercase;
+	text-transform    : none;
 	white-space       : nowrap;
 }
 
