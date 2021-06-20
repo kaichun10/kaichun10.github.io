@@ -2977,7 +2977,11 @@ ul.actions.fit.stacked {
 	position           : relative;
 	width: calc(33.33333% - 2.5em);
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin: 2em 4em 4em 4em;
+=======
+	margin: 2.5em 0 0 2.5em;
+>>>>>>> parent of 1bd123b... feat: delete extra margin
 =======
 	margin: 2.5em 0 0 2.5em;
 >>>>>>> parent of 1bd123b... feat: delete extra margin
