@@ -286,7 +286,7 @@ h2{
 	color      : #ffffffaa;
 	font-weight: bold;
 	line-height: 1.5;
-	margin     : 2em 0 0.5em 3em; /* margin around text */
+	margin     : 0.5em 0 0.5em 3em; /* margin around text */
 }
 h3{
 	color      : #ffffff;
@@ -2976,7 +2976,7 @@ ul.actions.fit.stacked {
 	overflow           : hidden;
 	position           : relative;
 	width: calc(33.33333% - 2.5em);
-	margin: 2.5em 0 0 2.5em;
+	margin: 4em 0 0 0;
 }
 
 .tiles article .image {
