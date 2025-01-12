@@ -59,19 +59,20 @@
 	}
 
 	.full_image {
-            display: grid;
-            height: 100%;
-    }
-    .full_screen {
+		display: grid;
+		height: 100%;
+	}
+
+	.full_screen {
 		display: block;
-        max-width: 100%;
-        max-height: 100vh;
-		
+		max-width: 100%;
+		max-height: 100vh;
+
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 15px;
 		margin-bottom: 15px;
-    }
+	}
 
 	.column {
 		float: left;
@@ -84,6 +85,22 @@
 		clear: both;
 		display: table;
 	}
+
+	.button {
+		height: 70px;
+		width: 420px;
+		background-color: white;
+		color: black;
+		border: 3px solid #000000;
+
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+		font-family: 'Courier New', monospace;
+		font-weight: lighter;
+		font-size: 18px;
+		color: rgb(0, 0, 0);
+	}
 </style>
 
 <head>
@@ -93,11 +110,11 @@
 
 <body style="background-color:rgb(255, 255, 255);">
 	<div class="full_image">
-		
+
 		<a href="1.html"><img src="images/IMG_2526.JPG" class="full_screen"></a>
 		<a href="2.html"><img src="images/IMG_2678_square.jpg" class="full_screen"></a>
 		<a href="3.html"><img src="images/IMG_2711_square.jpg" class="full_screen"></a>
-  
+
 		<a href="4.html"><img src="images/DSC_0359.JPG" class="full_screen"></a>
 		<a href="5.html"><img src="images/DSC_0355.JPG" class="full_screen"></a>
 		<a href="6.html"><img src="images/DSC_0427.JPG" class="full_screen"></a>
@@ -112,11 +129,13 @@
 		<a href="11.html"><img src="images/IMG_4812.jpg" class="full_screen"></a>
 		<a href="12.html"><img src="images/IMG_1040.jpg" class="full_screen"></a>
 		<a href="13.html"><img src="images/IMG_1139.jpg" class="full_screen"></a>
-        <!--<img src="images/IMG_1348.jpg" class="center">-->
+		<!--<img src="images/IMG_1348.jpg" class="center">-->
 
 		<a href="14.html"><img src="images/IMG_3388.PNG" class="full_screen"></a>
 
-        <h1><a href="pedestrianlight.html">pedestrianlight</a></h1>
+		<h1><a href="pedestrianlight.html">
+				<button class="button">pedestrianlight</button>
+			</a></h1>
 
 	</div>
 </body>
