@@ -100,6 +100,45 @@
 		font-weight: lighter;
 		font-size: 18px;
 		color: rgb(0, 0, 0);
+		cursor: pointer
+	}
+
+
+
+	.container {
+		position: relative;
+		width: 50%;
+		display: block;
+		max-width: 100%;
+		max-height: 100vh;
+
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.textbox {
+		transition: .5s ease;
+		opacity: 0;
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	.container:hover .textbox {
+		opacity: 1;
+	}
+
+	.text {
+		background-color: #000000;
+		opacity: 0.5;
+		color: white;
+		font-size: 16px;
+		padding: 16px 32px;
 	}
 </style>
 
@@ -109,34 +148,100 @@
 </head>
 
 <body style="background-color:rgb(255, 255, 255);">
-	<div class="full_image">
 
+	<div class="container">
 		<a href="1.html"><img src="images/IMG_2526.JPG" class="full_screen"></a>
-		<a href="2.html"><img src="images/IMG_2678_square.jpg" class="full_screen"></a>
-		<a href="3.html"><img src="images/IMG_2711_square.jpg" class="full_screen"></a>
-
-		<a href="4.html"><img src="images/DSC_0359.JPG" class="full_screen"></a>
-		<a href="5.html"><img src="images/DSC_0355.JPG" class="full_screen"></a>
-		<a href="6.html"><img src="images/DSC_0427.JPG" class="full_screen"></a>
-
-		<a href="9.html"><img src="images/DSC_0410.JPG" class="full_screen"></a>
-
-		<a href="8.html"><img src="images/DSC_0433.JPG" class="full_screen"></a>
-		<a href="7.html"><img src="images/DSC_0431.JPG" class="full_screen"></a>
-
-		<a href="11.html"><img src="images/IMG_4812.jpg" class="full_screen"></a>
-		<img src="images/IMG_1040.jpg" class="full_screen">
-		<img src="images/IMG_1139.jpg" class="full_screen">
-		<!--<img src="images/IMG_1348.jpg" class="center">-->
-
-		
-		<a href="14.html"><img src="images/IMG_3388.PNG" class="full_screen"></a>
-
-		<h1><a href="pedestrianlight.html">
-				<button class="button">pedestrianlight</button>
-			</a></h1>
-
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
 	</div>
+
+	<div class="container">
+		<a href="2.html"><img src="images/IMG_2678_square.jpg" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<a href="3.html"><img src="images/IMG_2711_square.jpg" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<a href="4.html"><img src="images/DSC_0359.JPG" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<a href="5.html"><img src="images/DSC_0355.JPG" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<a href="6.html"><img src="images/DSC_0427.JPG" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<a href="9.html"><img src="images/DSC_0410.JPG" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+	<div class="container">
+		<a href="8.html"><img src="images/DSC_0433.JPG" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+	<div class="container">
+		<a href="7.html"><img src="images/DSC_0431.JPG" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<a href="11.html"><img src="images/IMG_4812.jpg" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+
+
+
+
+
+	<img src="images/IMG_1040.jpg" class="full_screen">
+	<img src="images/IMG_1139.jpg" class="full_screen">
+	<!--<img src="images/IMG_1348.jpg" class="center">-->
+
+
+	<div class="container">
+		<a href="14.html"><img src="images/IMG_3388.PNG" class="full_screen"></a>
+		<div class="textbox">
+			<div class="text">Click on image for full screen</div>
+		</div>
+	</div>
+
+
+	<h1><a href="pedestrianlight.html">
+			<button class="button">click for pedestrianlight</button>
+		</a></h1>
+
+
+
+
 </body>
 
 </html>
